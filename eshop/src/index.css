@@ -7,3 +7,8 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+@layer components {
+  .search-bar {
+    @apply w-0 group-hover:w-[300px];
+  }
+}
